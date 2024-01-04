@@ -1,0 +1,206 @@
+
+
+.full{
+     background-image:linear-gradient(to right,rgb(4, 4, 196),rgb(7, 158, 218));
+
+    height: 500px;
+    width: 70%;
+    display: flex;
+    padding: 10px;
+    margin: 0px auto;
+    position: relative;
+    justify-content: center;
+
+    
+}
+
+.top{
+    text-align: center;
+    font-size: 25px;
+    flex: 1;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: grid;
+    gap: 130px;
+margin: auto;
+    
+
+}
+
+.lat{
+    flex: 3;
+    background-color: white;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+
+}
+.hh{
+    /* position: absolute; */
+    top: 20px;
+    /* width: 100%; */
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+  
+   
+}
+
+.login{
+    background-color: white;
+    height: 25px;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 25px;
+    margin: 0px auto;
+    padding: 8px;
+ 
+}
+
+
+
+.bai{
+    color: white;
+
+
+
+
+}
+
+.jes{
+    font-size: 14px;
+    color: white;
+    /* background-color: red; */
+    width: 55%;
+    margin: 0px auto;
+    padding-top: 20px;
+   
+    
+}
+
+
+.close{
+width: fit-content;
+margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    background-color: blue;
+ 
+    padding: 4px;
+    border-radius:20px;
+ /* background-color: rgb(4, 4, 196); */
+ 
+    color: white;
+
+
+  
+    
+   
+}
+.close div{
+    padding: 7px 30px;
+    
+   
+
+}
+
+
+.nev{
+
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+  
+
+
+
+
+
+
+
+}
+
+
+.alll{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.one{
+    width: 70%;
+  
+    margin: 0px auto;
+    display: grid;
+ grid-template-columns: 45% 45%;
+ padding-top: 30px;
+ gap: 15px;
+
+
+
+ 
+}
+.one input{
+    padding: 10px;
+}
+
+
+.lastone{
+    background-color: blue;
+    height: 28px;
+    width: 140px;
+    border-radius: 20px;
+    padding-top: 5px;
+    
+    color: white;
+    display: flex;
+ 
+    justify-content: center;
+    margin-left: auto;
+   
+   
+
+   
+   
+}
+
+
+
+.m{
+    display: flex;
+    font-size: 15px;
+    padding-left: 100px;
+}
+
+
+svg{
+    color:white;
+    animation: 1.5s ease infinite  spinner;
+}
+
+@keyframes spinner{
+    0%{
+transform: translateY(10px);
+    }
+    25%{
+        transform: translateY(5px);
+
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    80%{
+        transform: translateY(-5px);
+
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
